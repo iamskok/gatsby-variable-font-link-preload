@@ -1,0 +1,24 @@
+{
+  "name": "preload-variable-fonts",
+  "version": "1.0.0",
+  "description": "Link preload variable fonts",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "gatsby clean",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "fresh": "gatsby clean && gatsby build && gatsby develop",
+    "preload-fonts": "gatsby-preload-fonts"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "gatsby": "^2.19.32",
+    "gatsby-plugin-preload-fonts": "^1.1.1",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "theme-ui": "^0.3.1"
+  }
+}
